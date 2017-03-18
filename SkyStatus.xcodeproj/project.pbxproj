@@ -7,13 +7,16 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		05D27D2CEA3785620B1C235E /* Pods_SkyStatusUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 038782574763F8776BE169F0 /* Pods_SkyStatusUITests.framework */; };
+		209345A15EE6250A31E80088 /* Pods_SkyStatus.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ADBAD9BA4FD5AA6D6BD15337 /* Pods_SkyStatus.framework */; };
 		9707FC1A1E7DC484005E3EBA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9707FC191E7DC484005E3EBA /* AppDelegate.swift */; };
-		9707FC1C1E7DC484005E3EBA /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9707FC1B1E7DC484005E3EBA /* ViewController.swift */; };
+		9707FC1C1E7DC484005E3EBA /* WeatherVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9707FC1B1E7DC484005E3EBA /* WeatherVC.swift */; };
 		9707FC1F1E7DC484005E3EBA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9707FC1D1E7DC484005E3EBA /* Main.storyboard */; };
 		9707FC211E7DC484005E3EBA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9707FC201E7DC484005E3EBA /* Assets.xcassets */; };
 		9707FC241E7DC484005E3EBA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9707FC221E7DC484005E3EBA /* LaunchScreen.storyboard */; };
 		9707FC2F1E7DC484005E3EBA /* SkyStatusTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9707FC2E1E7DC484005E3EBA /* SkyStatusTests.swift */; };
 		9707FC3A1E7DC484005E3EBA /* SkyStatusUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9707FC391E7DC484005E3EBA /* SkyStatusUITests.swift */; };
+		E1CCB56A79DDF2B8CED632B5 /* Pods_SkyStatusTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FC4913C69F5D1C6BB6A24A0B /* Pods_SkyStatusTests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,9 +37,13 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		038782574763F8776BE169F0 /* Pods_SkyStatusUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SkyStatusUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		24E97190C0D08B2C7AAD1DB3 /* Pods-SkyStatusTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SkyStatusTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-SkyStatusTests/Pods-SkyStatusTests.release.xcconfig"; sourceTree = "<group>"; };
+		486BDBC55F671C3786262BE1 /* Pods-SkyStatus.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SkyStatus.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SkyStatus/Pods-SkyStatus.debug.xcconfig"; sourceTree = "<group>"; };
+		75553797D9C2006DAB59A83F /* Pods-SkyStatusUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SkyStatusUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-SkyStatusUITests/Pods-SkyStatusUITests.release.xcconfig"; sourceTree = "<group>"; };
 		9707FC161E7DC484005E3EBA /* SkyStatus.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SkyStatus.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9707FC191E7DC484005E3EBA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		9707FC1B1E7DC484005E3EBA /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		9707FC1B1E7DC484005E3EBA /* WeatherVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherVC.swift; sourceTree = "<group>"; };
 		9707FC1E1E7DC484005E3EBA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		9707FC201E7DC484005E3EBA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9707FC231E7DC484005E3EBA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -47,6 +54,11 @@
 		9707FC351E7DC484005E3EBA /* SkyStatusUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SkyStatusUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		9707FC391E7DC484005E3EBA /* SkyStatusUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SkyStatusUITests.swift; sourceTree = "<group>"; };
 		9707FC3B1E7DC484005E3EBA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9B18307245EF6E542B42C19D /* Pods-SkyStatus.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SkyStatus.release.xcconfig"; path = "Pods/Target Support Files/Pods-SkyStatus/Pods-SkyStatus.release.xcconfig"; sourceTree = "<group>"; };
+		A4763BEE9D3FC02695F5A65B /* Pods-SkyStatusTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SkyStatusTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SkyStatusTests/Pods-SkyStatusTests.debug.xcconfig"; sourceTree = "<group>"; };
+		ADBAD9BA4FD5AA6D6BD15337 /* Pods_SkyStatus.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SkyStatus.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D15348763AADAA88981E93B6 /* Pods-SkyStatusUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SkyStatusUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SkyStatusUITests/Pods-SkyStatusUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		FC4913C69F5D1C6BB6A24A0B /* Pods_SkyStatusTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SkyStatusTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +66,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				209345A15EE6250A31E80088 /* Pods_SkyStatus.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -61,6 +74,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E1CCB56A79DDF2B8CED632B5 /* Pods_SkyStatusTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -68,12 +82,36 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				05D27D2CEA3785620B1C235E /* Pods_SkyStatusUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		52FA65E998D1355CB1C367B7 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				ADBAD9BA4FD5AA6D6BD15337 /* Pods_SkyStatus.framework */,
+				FC4913C69F5D1C6BB6A24A0B /* Pods_SkyStatusTests.framework */,
+				038782574763F8776BE169F0 /* Pods_SkyStatusUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		6500BD926A5AF3729F2E3519 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				486BDBC55F671C3786262BE1 /* Pods-SkyStatus.debug.xcconfig */,
+				9B18307245EF6E542B42C19D /* Pods-SkyStatus.release.xcconfig */,
+				A4763BEE9D3FC02695F5A65B /* Pods-SkyStatusTests.debug.xcconfig */,
+				24E97190C0D08B2C7AAD1DB3 /* Pods-SkyStatusTests.release.xcconfig */,
+				D15348763AADAA88981E93B6 /* Pods-SkyStatusUITests.debug.xcconfig */,
+				75553797D9C2006DAB59A83F /* Pods-SkyStatusUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		9707FC0D1E7DC483005E3EBA = {
 			isa = PBXGroup;
 			children = (
@@ -81,6 +119,8 @@
 				9707FC2D1E7DC484005E3EBA /* SkyStatusTests */,
 				9707FC381E7DC484005E3EBA /* SkyStatusUITests */,
 				9707FC171E7DC484005E3EBA /* Products */,
+				6500BD926A5AF3729F2E3519 /* Pods */,
+				52FA65E998D1355CB1C367B7 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -98,7 +138,7 @@
 			isa = PBXGroup;
 			children = (
 				9707FC191E7DC484005E3EBA /* AppDelegate.swift */,
-				9707FC1B1E7DC484005E3EBA /* ViewController.swift */,
+				9707FC1B1E7DC484005E3EBA /* WeatherVC.swift */,
 				9707FC1D1E7DC484005E3EBA /* Main.storyboard */,
 				9707FC201E7DC484005E3EBA /* Assets.xcassets */,
 				9707FC221E7DC484005E3EBA /* LaunchScreen.storyboard */,
@@ -132,9 +172,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 9707FC3E1E7DC484005E3EBA /* Build configuration list for PBXNativeTarget "SkyStatus" */;
 			buildPhases = (
+				94C6388249FCCE9E0CEAB2DB /* [CP] Check Pods Manifest.lock */,
 				9707FC121E7DC484005E3EBA /* Sources */,
 				9707FC131E7DC484005E3EBA /* Frameworks */,
 				9707FC141E7DC484005E3EBA /* Resources */,
+				7E663E4400E339D863D80F2D /* [CP] Embed Pods Frameworks */,
+				DB34ACFFA03B6DDC325DBC74 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -149,9 +192,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 9707FC411E7DC484005E3EBA /* Build configuration list for PBXNativeTarget "SkyStatusTests" */;
 			buildPhases = (
+				5CD9913B95105923ADD674F5 /* [CP] Check Pods Manifest.lock */,
 				9707FC261E7DC484005E3EBA /* Sources */,
 				9707FC271E7DC484005E3EBA /* Frameworks */,
 				9707FC281E7DC484005E3EBA /* Resources */,
+				A1AE8C237F44522F1DB5A644 /* [CP] Embed Pods Frameworks */,
+				31C076621DD76D7FD0972BF4 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -167,9 +213,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 9707FC441E7DC484005E3EBA /* Build configuration list for PBXNativeTarget "SkyStatusUITests" */;
 			buildPhases = (
+				ED12D6FE503546EA5BE7265E /* [CP] Check Pods Manifest.lock */,
 				9707FC311E7DC484005E3EBA /* Sources */,
 				9707FC321E7DC484005E3EBA /* Frameworks */,
 				9707FC331E7DC484005E3EBA /* Resources */,
+				EA48C2A374C8C3FBB681F531 /* [CP] Embed Pods Frameworks */,
+				611650107A690AB3371F79DD /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -257,12 +306,150 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		31C076621DD76D7FD0972BF4 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SkyStatusTests/Pods-SkyStatusTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5CD9913B95105923ADD674F5 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		611650107A690AB3371F79DD /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SkyStatusUITests/Pods-SkyStatusUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7E663E4400E339D863D80F2D /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SkyStatus/Pods-SkyStatus-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		94C6388249FCCE9E0CEAB2DB /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		A1AE8C237F44522F1DB5A644 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SkyStatusTests/Pods-SkyStatusTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DB34ACFFA03B6DDC325DBC74 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SkyStatus/Pods-SkyStatus-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		EA48C2A374C8C3FBB681F531 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SkyStatusUITests/Pods-SkyStatusUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		ED12D6FE503546EA5BE7265E /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		9707FC121E7DC484005E3EBA /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9707FC1C1E7DC484005E3EBA /* ViewController.swift in Sources */,
+				9707FC1C1E7DC484005E3EBA /* WeatherVC.swift in Sources */,
 				9707FC1A1E7DC484005E3EBA /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -413,6 +600,7 @@
 		};
 		9707FC3F1E7DC484005E3EBA /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 486BDBC55F671C3786262BE1 /* Pods-SkyStatus.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 3WRXP96FPD;
@@ -426,6 +614,7 @@
 		};
 		9707FC401E7DC484005E3EBA /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9B18307245EF6E542B42C19D /* Pods-SkyStatus.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 3WRXP96FPD;
@@ -439,6 +628,7 @@
 		};
 		9707FC421E7DC484005E3EBA /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A4763BEE9D3FC02695F5A65B /* Pods-SkyStatusTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -454,6 +644,7 @@
 		};
 		9707FC431E7DC484005E3EBA /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 24E97190C0D08B2C7AAD1DB3 /* Pods-SkyStatusTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -469,6 +660,7 @@
 		};
 		9707FC451E7DC484005E3EBA /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D15348763AADAA88981E93B6 /* Pods-SkyStatusUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				DEVELOPMENT_TEAM = 3WRXP96FPD;
@@ -483,6 +675,7 @@
 		};
 		9707FC461E7DC484005E3EBA /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 75553797D9C2006DAB59A83F /* Pods-SkyStatusUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				DEVELOPMENT_TEAM = 3WRXP96FPD;
@@ -514,6 +707,7 @@
 				9707FC401E7DC484005E3EBA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		9707FC411E7DC484005E3EBA /* Build configuration list for PBXNativeTarget "SkyStatusTests" */ = {
 			isa = XCConfigurationList;
@@ -522,6 +716,7 @@
 				9707FC431E7DC484005E3EBA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		9707FC441E7DC484005E3EBA /* Build configuration list for PBXNativeTarget "SkyStatusUITests" */ = {
 			isa = XCConfigurationList;
@@ -530,6 +725,7 @@
 				9707FC461E7DC484005E3EBA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
