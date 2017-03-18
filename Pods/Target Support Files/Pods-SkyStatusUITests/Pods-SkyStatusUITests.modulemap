@@ -1,0 +1,6 @@
+framework module Pods_SkyStatusUITests {
+  umbrella header "Pods-SkyStatusUITests-umbrella.h"
+
+  export *
+  module * { export * }
+}
