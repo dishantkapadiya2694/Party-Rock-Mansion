@@ -1,0 +1,537 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		9707FC1A1E7DC484005E3EBA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9707FC191E7DC484005E3EBA /* AppDelegate.swift */; };
+		9707FC1C1E7DC484005E3EBA /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9707FC1B1E7DC484005E3EBA /* ViewController.swift */; };
+		9707FC1F1E7DC484005E3EBA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9707FC1D1E7DC484005E3EBA /* Main.storyboard */; };
+		9707FC211E7DC484005E3EBA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9707FC201E7DC484005E3EBA /* Assets.xcassets */; };
+		9707FC241E7DC484005E3EBA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9707FC221E7DC484005E3EBA /* LaunchScreen.storyboard */; };
+		9707FC2F1E7DC484005E3EBA /* SkyStatusTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9707FC2E1E7DC484005E3EBA /* SkyStatusTests.swift */; };
+		9707FC3A1E7DC484005E3EBA /* SkyStatusUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9707FC391E7DC484005E3EBA /* SkyStatusUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		9707FC2B1E7DC484005E3EBA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9707FC0E1E7DC483005E3EBA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9707FC151E7DC484005E3EBA;
+			remoteInfo = SkyStatus;
+		};
+		9707FC361E7DC484005E3EBA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9707FC0E1E7DC483005E3EBA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9707FC151E7DC484005E3EBA;
+			remoteInfo = SkyStatus;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		9707FC161E7DC484005E3EBA /* SkyStatus.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SkyStatus.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		9707FC191E7DC484005E3EBA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		9707FC1B1E7DC484005E3EBA /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		9707FC1E1E7DC484005E3EBA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		9707FC201E7DC484005E3EBA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		9707FC231E7DC484005E3EBA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		9707FC251E7DC484005E3EBA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9707FC2A1E7DC484005E3EBA /* SkyStatusTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SkyStatusTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		9707FC2E1E7DC484005E3EBA /* SkyStatusTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SkyStatusTests.swift; sourceTree = "<group>"; };
+		9707FC301E7DC484005E3EBA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9707FC351E7DC484005E3EBA /* SkyStatusUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SkyStatusUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		9707FC391E7DC484005E3EBA /* SkyStatusUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SkyStatusUITests.swift; sourceTree = "<group>"; };
+		9707FC3B1E7DC484005E3EBA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9707FC131E7DC484005E3EBA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9707FC271E7DC484005E3EBA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9707FC321E7DC484005E3EBA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		9707FC0D1E7DC483005E3EBA = {
+			isa = PBXGroup;
+			children = (
+				9707FC181E7DC484005E3EBA /* SkyStatus */,
+				9707FC2D1E7DC484005E3EBA /* SkyStatusTests */,
+				9707FC381E7DC484005E3EBA /* SkyStatusUITests */,
+				9707FC171E7DC484005E3EBA /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		9707FC171E7DC484005E3EBA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9707FC161E7DC484005E3EBA /* SkyStatus.app */,
+				9707FC2A1E7DC484005E3EBA /* SkyStatusTests.xctest */,
+				9707FC351E7DC484005E3EBA /* SkyStatusUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9707FC181E7DC484005E3EBA /* SkyStatus */ = {
+			isa = PBXGroup;
+			children = (
+				9707FC191E7DC484005E3EBA /* AppDelegate.swift */,
+				9707FC1B1E7DC484005E3EBA /* ViewController.swift */,
+				9707FC1D1E7DC484005E3EBA /* Main.storyboard */,
+				9707FC201E7DC484005E3EBA /* Assets.xcassets */,
+				9707FC221E7DC484005E3EBA /* LaunchScreen.storyboard */,
+				9707FC251E7DC484005E3EBA /* Info.plist */,
+			);
+			path = SkyStatus;
+			sourceTree = "<group>";
+		};
+		9707FC2D1E7DC484005E3EBA /* SkyStatusTests */ = {
+			isa = PBXGroup;
+			children = (
+				9707FC2E1E7DC484005E3EBA /* SkyStatusTests.swift */,
+				9707FC301E7DC484005E3EBA /* Info.plist */,
+			);
+			path = SkyStatusTests;
+			sourceTree = "<group>";
+		};
+		9707FC381E7DC484005E3EBA /* SkyStatusUITests */ = {
+			isa = PBXGroup;
+			children = (
+				9707FC391E7DC484005E3EBA /* SkyStatusUITests.swift */,
+				9707FC3B1E7DC484005E3EBA /* Info.plist */,
+			);
+			path = SkyStatusUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		9707FC151E7DC484005E3EBA /* SkyStatus */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9707FC3E1E7DC484005E3EBA /* Build configuration list for PBXNativeTarget "SkyStatus" */;
+			buildPhases = (
+				9707FC121E7DC484005E3EBA /* Sources */,
+				9707FC131E7DC484005E3EBA /* Frameworks */,
+				9707FC141E7DC484005E3EBA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SkyStatus;
+			productName = SkyStatus;
+			productReference = 9707FC161E7DC484005E3EBA /* SkyStatus.app */;
+			productType = "com.apple.product-type.application";
+		};
+		9707FC291E7DC484005E3EBA /* SkyStatusTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9707FC411E7DC484005E3EBA /* Build configuration list for PBXNativeTarget "SkyStatusTests" */;
+			buildPhases = (
+				9707FC261E7DC484005E3EBA /* Sources */,
+				9707FC271E7DC484005E3EBA /* Frameworks */,
+				9707FC281E7DC484005E3EBA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9707FC2C1E7DC484005E3EBA /* PBXTargetDependency */,
+			);
+			name = SkyStatusTests;
+			productName = SkyStatusTests;
+			productReference = 9707FC2A1E7DC484005E3EBA /* SkyStatusTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		9707FC341E7DC484005E3EBA /* SkyStatusUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9707FC441E7DC484005E3EBA /* Build configuration list for PBXNativeTarget "SkyStatusUITests" */;
+			buildPhases = (
+				9707FC311E7DC484005E3EBA /* Sources */,
+				9707FC321E7DC484005E3EBA /* Frameworks */,
+				9707FC331E7DC484005E3EBA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9707FC371E7DC484005E3EBA /* PBXTargetDependency */,
+			);
+			name = SkyStatusUITests;
+			productName = SkyStatusUITests;
+			productReference = 9707FC351E7DC484005E3EBA /* SkyStatusUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9707FC0E1E7DC483005E3EBA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0820;
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = "Dishant Kapadiya";
+				TargetAttributes = {
+					9707FC151E7DC484005E3EBA = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = 3WRXP96FPD;
+						ProvisioningStyle = Automatic;
+					};
+					9707FC291E7DC484005E3EBA = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = 3WRXP96FPD;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 9707FC151E7DC484005E3EBA;
+					};
+					9707FC341E7DC484005E3EBA = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = 3WRXP96FPD;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 9707FC151E7DC484005E3EBA;
+					};
+				};
+			};
+			buildConfigurationList = 9707FC111E7DC483005E3EBA /* Build configuration list for PBXProject "SkyStatus" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 9707FC0D1E7DC483005E3EBA;
+			productRefGroup = 9707FC171E7DC484005E3EBA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9707FC151E7DC484005E3EBA /* SkyStatus */,
+				9707FC291E7DC484005E3EBA /* SkyStatusTests */,
+				9707FC341E7DC484005E3EBA /* SkyStatusUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		9707FC141E7DC484005E3EBA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9707FC241E7DC484005E3EBA /* LaunchScreen.storyboard in Resources */,
+				9707FC211E7DC484005E3EBA /* Assets.xcassets in Resources */,
+				9707FC1F1E7DC484005E3EBA /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9707FC281E7DC484005E3EBA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9707FC331E7DC484005E3EBA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9707FC121E7DC484005E3EBA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9707FC1C1E7DC484005E3EBA /* ViewController.swift in Sources */,
+				9707FC1A1E7DC484005E3EBA /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9707FC261E7DC484005E3EBA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9707FC2F1E7DC484005E3EBA /* SkyStatusTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9707FC311E7DC484005E3EBA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9707FC3A1E7DC484005E3EBA /* SkyStatusUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		9707FC2C1E7DC484005E3EBA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9707FC151E7DC484005E3EBA /* SkyStatus */;
+			targetProxy = 9707FC2B1E7DC484005E3EBA /* PBXContainerItemProxy */;
+		};
+		9707FC371E7DC484005E3EBA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9707FC151E7DC484005E3EBA /* SkyStatus */;
+			targetProxy = 9707FC361E7DC484005E3EBA /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		9707FC1D1E7DC484005E3EBA /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9707FC1E1E7DC484005E3EBA /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		9707FC221E7DC484005E3EBA /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9707FC231E7DC484005E3EBA /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		9707FC3C1E7DC484005E3EBA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		9707FC3D1E7DC484005E3EBA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		9707FC3F1E7DC484005E3EBA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 3WRXP96FPD;
+				INFOPLIST_FILE = SkyStatus/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Dishant.SkyStatus;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		9707FC401E7DC484005E3EBA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 3WRXP96FPD;
+				INFOPLIST_FILE = SkyStatus/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Dishant.SkyStatus;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		9707FC421E7DC484005E3EBA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 3WRXP96FPD;
+				INFOPLIST_FILE = SkyStatusTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Dishant.SkyStatusTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SkyStatus.app/SkyStatus";
+			};
+			name = Debug;
+		};
+		9707FC431E7DC484005E3EBA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 3WRXP96FPD;
+				INFOPLIST_FILE = SkyStatusTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Dishant.SkyStatusTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SkyStatus.app/SkyStatus";
+			};
+			name = Release;
+		};
+		9707FC451E7DC484005E3EBA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = 3WRXP96FPD;
+				INFOPLIST_FILE = SkyStatusUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Dishant.SkyStatusUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = SkyStatus;
+			};
+			name = Debug;
+		};
+		9707FC461E7DC484005E3EBA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = 3WRXP96FPD;
+				INFOPLIST_FILE = SkyStatusUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Dishant.SkyStatusUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = SkyStatus;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		9707FC111E7DC483005E3EBA /* Build configuration list for PBXProject "SkyStatus" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9707FC3C1E7DC484005E3EBA /* Debug */,
+				9707FC3D1E7DC484005E3EBA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9707FC3E1E7DC484005E3EBA /* Build configuration list for PBXNativeTarget "SkyStatus" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9707FC3F1E7DC484005E3EBA /* Debug */,
+				9707FC401E7DC484005E3EBA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		9707FC411E7DC484005E3EBA /* Build configuration list for PBXNativeTarget "SkyStatusTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9707FC421E7DC484005E3EBA /* Debug */,
+				9707FC431E7DC484005E3EBA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		9707FC441E7DC484005E3EBA /* Build configuration list for PBXNativeTarget "SkyStatusUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9707FC451E7DC484005E3EBA /* Debug */,
+				9707FC461E7DC484005E3EBA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 9707FC0E1E7DC483005E3EBA /* Project object */;
+}
