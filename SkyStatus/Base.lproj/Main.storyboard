@@ -55,7 +55,7 @@
                                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="center" spacing="50" translatesAutoresizingMaskIntoConstraints="NO" id="cDI-kt-Rbg">
                                                 <rect key="frame" x="202" y="0.0" width="133" height="260"/>
                                                 <subviews>
-                                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="RiS-e9-VTP">
+                                                    <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="RiS-e9-VTP">
                                                         <rect key="frame" x="6.5" y="0.0" width="120" height="120"/>
                                                         <constraints>
                                                             <constraint firstAttribute="width" secondItem="RiS-e9-VTP" secondAttribute="height" multiplier="1:1" id="Hs8-Fr-S9t"/>
@@ -87,7 +87,7 @@
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <inset key="separatorInset" minX="0.0" minY="0.0" maxX="0.0" maxY="0.0"/>
                                 <prototypes>
-                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="cell" rowHeight="80" id="5Iy-oH-A4g">
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="cell" rowHeight="80" id="5Iy-oH-A4g" customClass="WeatherCell" customModule="SkyStatus" customModuleProvider="target">
                                         <rect key="frame" x="0.0" y="28" width="375" height="80"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="5Iy-oH-A4g" id="wMV-eY-IA6">
@@ -97,7 +97,7 @@
                                                 <stackView opaque="NO" contentMode="scaleToFill" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="BhY-ne-5Mw">
                                                     <rect key="frame" x="20" y="10" width="335" height="59"/>
                                                     <subviews>
-                                                        <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="jvp-N7-S3b">
+                                                        <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="jvp-N7-S3b">
                                                             <rect key="frame" x="0.0" y="0.0" width="59" height="59"/>
                                                             <constraints>
                                                                 <constraint firstAttribute="width" secondItem="jvp-N7-S3b" secondAttribute="height" multiplier="1:1" id="LD4-Xf-qOu"/>
@@ -145,6 +145,7 @@
                                                     </subviews>
                                                 </stackView>
                                             </subviews>
+                                            <color key="backgroundColor" red="0.60000002379999995" green="0.60000002379999995" blue="0.60000002379999995" alpha="1" colorSpace="calibratedRGB"/>
                                             <constraints>
                                                 <constraint firstItem="BhY-ne-5Mw" firstAttribute="top" secondItem="wMV-eY-IA6" secondAttribute="topMargin" constant="2" id="GRt-Xd-Iwf"/>
                                                 <constraint firstItem="BhY-ne-5Mw" firstAttribute="leading" secondItem="wMV-eY-IA6" secondAttribute="leading" constant="20" symbolic="YES" id="cIj-oy-Ql9"/>
@@ -152,6 +153,13 @@
                                                 <constraint firstAttribute="bottomMargin" secondItem="BhY-ne-5Mw" secondAttribute="bottom" constant="2" id="y3G-Ue-Ch7"/>
                                             </constraints>
                                         </tableViewCellContentView>
+                                        <connections>
+                                            <outlet property="dayLabel" destination="bJO-AG-gWk" id="6qR-rq-2tM"/>
+                                            <outlet property="highTempLabel" destination="ZSU-qz-vKf" id="goS-b2-MYG"/>
+                                            <outlet property="lowTempLabel" destination="fsY-XK-b5r" id="tsy-X5-Q48"/>
+                                            <outlet property="weatherIcon" destination="jvp-N7-S3b" id="N38-cw-OLE"/>
+                                            <outlet property="weatherTypeLabel" destination="I3h-qw-1Wa" id="Yfs-Am-LYI"/>
+                                        </connections>
                                     </tableViewCell>
                                 </prototypes>
                             </tableView>
