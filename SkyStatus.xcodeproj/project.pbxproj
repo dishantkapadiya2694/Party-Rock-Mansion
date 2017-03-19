@@ -18,6 +18,9 @@
 		9707FC3A1E7DC484005E3EBA /* SkyStatusUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9707FC391E7DC484005E3EBA /* SkyStatusUITests.swift */; };
 		9707FC481E7DDB6A005E3EBA /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9707FC471E7DDB6A005E3EBA /* Constants.swift */; };
 		9707FC4A1E7DDEDB005E3EBA /* CurrentWeather.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9707FC491E7DDEDB005E3EBA /* CurrentWeather.swift */; };
+		9707FC531E7EEC55005E3EBA /* Forecast.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9707FC521E7EEC55005E3EBA /* Forecast.swift */; };
+		9707FC551E7EF74B005E3EBA /* WeatherCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9707FC541E7EF74B005E3EBA /* WeatherCell.swift */; };
+		9707FC571E7EFF2A005E3EBA /* Location.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9707FC561E7EFF2A005E3EBA /* Location.swift */; };
 		E1CCB56A79DDF2B8CED632B5 /* Pods_SkyStatusTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FC4913C69F5D1C6BB6A24A0B /* Pods_SkyStatusTests.framework */; };
 /* End PBXBuildFile section */
 
@@ -58,6 +61,9 @@
 		9707FC3B1E7DC484005E3EBA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		9707FC471E7DDB6A005E3EBA /* Constants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 		9707FC491E7DDEDB005E3EBA /* CurrentWeather.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CurrentWeather.swift; sourceTree = "<group>"; };
+		9707FC521E7EEC55005E3EBA /* Forecast.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Forecast.swift; sourceTree = "<group>"; };
+		9707FC541E7EF74B005E3EBA /* WeatherCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WeatherCell.swift; sourceTree = "<group>"; };
+		9707FC561E7EFF2A005E3EBA /* Location.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Location.swift; sourceTree = "<group>"; };
 		9B18307245EF6E542B42C19D /* Pods-SkyStatus.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SkyStatus.release.xcconfig"; path = "Pods/Target Support Files/Pods-SkyStatus/Pods-SkyStatus.release.xcconfig"; sourceTree = "<group>"; };
 		A4763BEE9D3FC02695F5A65B /* Pods-SkyStatusTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SkyStatusTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SkyStatusTests/Pods-SkyStatusTests.debug.xcconfig"; sourceTree = "<group>"; };
 		ADBAD9BA4FD5AA6D6BD15337 /* Pods_SkyStatus.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SkyStatus.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -149,6 +155,8 @@
 				9707FC201E7DC484005E3EBA /* Assets.xcassets */,
 				9707FC221E7DC484005E3EBA /* LaunchScreen.storyboard */,
 				9707FC251E7DC484005E3EBA /* Info.plist */,
+				9707FC541E7EF74B005E3EBA /* WeatherCell.swift */,
+				9707FC561E7EFF2A005E3EBA /* Location.swift */,
 			);
 			path = SkyStatus;
 			sourceTree = "<group>";
@@ -183,6 +191,7 @@
 			isa = PBXGroup;
 			children = (
 				9707FC491E7DDEDB005E3EBA /* CurrentWeather.swift */,
+				9707FC521E7EEC55005E3EBA /* Forecast.swift */,
 			);
 			name = Model;
 			sourceTree = "<group>";
@@ -487,8 +496,11 @@
 			files = (
 				9707FC1C1E7DC484005E3EBA /* WeatherVC.swift in Sources */,
 				9707FC1A1E7DC484005E3EBA /* AppDelegate.swift in Sources */,
+				9707FC551E7EF74B005E3EBA /* WeatherCell.swift in Sources */,
 				9707FC4A1E7DDEDB005E3EBA /* CurrentWeather.swift in Sources */,
 				9707FC481E7DDB6A005E3EBA /* Constants.swift in Sources */,
+				9707FC531E7EEC55005E3EBA /* Forecast.swift in Sources */,
+				9707FC571E7EFF2A005E3EBA /* Location.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
